@@ -1,0 +1,17 @@
+[Static]
+class EPTatoo
+{
+	[key, read] string AdvertisementID;
+	[read] string ClientVersion;
+	[read] string Computername;
+	[read] string InstallationType;
+	[read] datetime InstalledBeginTime;
+	[read] datetime InstalledEndTime;
+	[read] string MediaType;
+	[read] string Organization;
+	[read] string PrevOperatingSystem;
+	[read] string TaskSequenceName;
+	[read] string TaskSequenceversion;
+	[read] string TSSequence;
+	[read] datetime TSSequenceTime;
+};
